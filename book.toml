@@ -1,0 +1,6 @@
+[book]
+authors = ["Ryan Varley"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Data Leaders Handbook"
