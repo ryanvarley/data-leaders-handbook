@@ -58,15 +58,14 @@ const config: Config = {
     navbar: {
       title: 'Data Leaders Handbook',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Data Leaders Handbook Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          href: 'https://blog.dataleadership.ai',
+          label: 'Blog',
           position: 'left',
-          label: 'Tutorial',
         },
         {
           href: 'https://github.com/ryanvarley/data-leaders-handbook',
@@ -78,15 +77,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
         {
           title: 'Socials',
           items: [
