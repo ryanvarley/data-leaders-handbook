@@ -1,19 +1,19 @@
 = 1:1 Meeting Questions
 :toclevels: 2
 
-Here is a collection of questions you can ask your report in a 1:1 meeting. You should think about what you are trying to get out of the meeting and pick a question from the relevant sections.
+Here is a collection of questions you can ask your report in a 1:1 meeting.
 
-Stopping short of telling you good ways of running 1:1s (that will wait for a future chapter) this chapter just lists questions, what they try to achieve and how well they work.
+This page mostly just lists questions with my thoughts on them, what they are trying to acheive and how well they work. While the wording of questions is often deliberate, I dont always strictly adhear to it.
 
-That said, as a guide I believe 1:1 meetings are primarily for your report. That doesn't mean you don't have a responsibility to make them useful, but they aren't about your needs primarily (e.g., getting a project update). Do those in another meeting.
+There is a companion post HERE. that list more about how to use this guide and general advice on running 1:1 meetings.
 
-While the wording of questions is often deliberate, I don't strictly adhere to it.
+I beleive 1:1 meetings are primarily for your report. That doesnt mean you dont have a responsiblity to make them useful, but they arent about your needs primarily (e.g. getting a project update), do those in another meeting.
 
-The questions have been divided into sections. I would prepare for a meeting by choosing some from sections I think are important (rarely all of them in one meeting). Often these provide a fallback for if not much has been brought up in the introduction. These days and with longer-serving employees, I rarely dip into these questions. For new team members, I find myself here often.
+The questions have been divided into sections. I would prepare for a meeting by choosing some from sections I think are important (rarely all of them in one meeting). Often these provide a fall back for if not much has been brought up in the introduction. These days and with longer serving employees i rarely dip into these questions, for new team members I find myself here often.
 
-Note that I test and rotate questions based on their intent and effectiveness. If a question isn't working, I remove it. If I think of one, I'll add it and try it.
+Note that I test and rotate questions based on their intent and effectiveness. If a question isnt working i remove it. If i think of one ill add it and try it.
 
-The questions here are meant as a list to pick from. I have sometimes offered commentary and sometimes notes on when I may use it.
+Many of these questions require trust to get good answers. But by asking them, listening, and where appropiate acting or providing more information and conext (without getting defensive), they will build trust.
 
 == Introductions
 
