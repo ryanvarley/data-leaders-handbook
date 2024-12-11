@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -53,7 +53,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Data Leaders Handbook',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -65,9 +65,8 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ryanvarley/data-leaders-handbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -86,19 +85,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Socials',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/ryanvarley/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Bluesky',
+              href: 'https://bsky.app/profile/ryanvarley.bsky.social',
             },
           ],
         },
@@ -106,17 +101,17 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Data Leadership Blog',
+              to: 'https://blog.dataleadership.ai',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ryanvarley/data-leaders-handbook',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ryan Varley. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
