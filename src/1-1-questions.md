@@ -35,26 +35,32 @@ You should also share things you want to cover (after they have shared!) and the
 
 Even if it yeilds nothing, its a good one to ask as it shows you care about supporting them.
 
-### What, if anything, feels harder than it should be in your day to day work?
-
 ### What are the biggest time wasters for you each week?
 
-Should be covered in an effective retro, but sometimes catches things by encouraging thought into time wasters. Could actually be asked in a retor.
+Should be covered in an effective retro, but sometimes catches things by encouraging thought into time wasters. Could actually be asked in a retro.
+
+### What, if anything, feels harder than it should be in your day to day work?
+Similar to time wasters, but different phrasing can help people think
 
 ### Are you happy in your role? What could make it better for you?
-To be used sparingly
+To be used sparingly. Normally if you suspect theres an issue.
 
 
 ## Team questions
 
+### If you were running the team what would you do differently?
+Variation on the CEO question focused on the team
+
 ### What's a problem we have on our team that I might not know about?
+Untested, works better when you have more distance e.g. skip level
 
 ### What's our biggest challenge as a team?
+its ok
 
 ### How can we step up as a team this week?
 Untested
 
-### If you were running the team what would you do differently?
+
 
 ### If you were me, what question would you ask yourself? 
 
