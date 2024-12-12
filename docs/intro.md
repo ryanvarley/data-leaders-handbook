@@ -16,11 +16,13 @@ import RyanProfile from '/img/ryanvarley-profile.jpeg';
 
 <img src={RyanProfile} width="200" style={{ clipPath: 'circle()' }} />
 
-I am a leader in Data, Engineering and Product primarily focusing on data (science and engineering).
+Hi 👋 I'm Ryan Varley, a leader in Data, Engineering, and Product, with a focus on data science and engineering.
 
-With a start in astronomy where i gained my PhD, I have worked in data-centric roles in various startups across ad-tech, mar-tech and ed-tech leading teams primarily in data science and data engineering along with experience across engineering and product functions.
+With a start in astronomy where I gained my PhD, I have since worked in data-centric roles at various startups across ad-tech, mar-tech, and ed-tech. Throughout my career, I have led teams in data science and data engineering while also leading and gaining experience across engineering and product functions.
 
-As a leader, Ryan values:
+I am currently SVP of Technology at Boclips, en ed-tech where I run the Data, Product and Engineering teams.
+
+As a leader, I value:
 
 * Deep understanding of the business context, client problems, and the solutions we are creating.
 * Moving quickly: building MVPs to evaluate solutions and deliver value fast.
@@ -30,4 +32,4 @@ As a leader, Ryan values:
 * Candour: not shying away from difficult discussions to achieve the best outcomes.
 * Operating across a high dynamic range, from big picture strategy through to execution.
 
-Ryan frequently shares insights on leadership and data on [LinkedIn](https://www.linkedin.com/in/ryanvarley/) and his [blog](https://blog.dataleadership.ai/).
+I frequently share insights on leadership and data on [LinkedIn](https://www.linkedin.com/in/ryanvarley/) and via my [blog](https://blog.dataleadership.ai/).
