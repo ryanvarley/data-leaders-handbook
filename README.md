@@ -10,6 +10,8 @@ For now this just contains 1:1 questions but I have plenty more to add in future
 
 I welcome suggestions and pull requests (though for now I reserve the right to be the sole judge of what gets added).
 
+<img src="https://github.com/user-attachments/assets/3556d65c-6ade-46ff-aea6-2674e9822790" width="600px">
+
 ## This Repo
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
