@@ -16,7 +16,7 @@ import RyanProfile from '/img/ryanvarley-profile.jpeg';
 
 <img src={RyanProfile} width="200" style={{ clipPath: 'circle()' }} />
 
-Hi 👋 I'm Ryan Varley, a leader in Data, Engineering, and Product, with a focus on data science and engineering.
+Hi 👋 I'm Ryan Varley, a leader in Data, Engineering, and Product, with a focus on Data Science and Data Engineering.
 
 With a start in astronomy where I gained my PhD, I have since worked in data-centric roles at various startups across ad-tech, mar-tech, and ed-tech. Throughout my career, I have led teams in data science and data engineering while also leading and gaining experience across engineering and product functions.
 
