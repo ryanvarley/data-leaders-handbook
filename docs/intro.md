@@ -10,6 +10,8 @@ Welcome to the Data Leaders Handbook. This is a place I can share resources that
 
 For now this just contains 1:1 questions but I have plenty more to add in future including questions for interviews, skip levels and feedback. The best way to get updates is to subscribe to the main blog [Data Leadership](https://blog.dataleadership.ai/).
 
+<iframe src="https://blog.dataleadership.ai/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 # About the Author
 
 import RyanProfile from '/img/ryanvarley-profile.jpeg';
