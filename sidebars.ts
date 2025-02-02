@@ -30,4 +30,6 @@ const sidebars: SidebarsConfig = {
    */
 };
 
+// # TODO add subscrube and buy me a coffee?
+
 export default sidebars;
