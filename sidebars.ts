@@ -6,22 +6,19 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div class="subscribe-container"><iframe src="https://blog.dataleadership.ai/embed" width="280" height="320" style="border: 1px solid #EEE; background: white;" frameBorder="0" scrolling="no"></iframe></div>',
+      value: '<div class="subscribe-container"><iframe src="https://blog.dataleadership.ai/embed" frameBorder="0" scrolling="no"></iframe></div>',
       className: 'subscribe-sidebar',
     },
     {
       type: 'html',
-      value: `<div class="linkedin-profile" style="text-align: center;">
+      value: `<div class="linkedin-profile">
           <img 
             src="/img/ryanvarley-profile.jpeg" 
-            alt="Ryan Varley Profile Picture" 
-            width="100" 
-            height="100" 
-            style="border-radius: 50%; object-fit: cover; border: 3px solid var(--ifm-color-primary); margin-bottom: 10px;" 
+            alt="Ryan Varley Profile Picture"
           />
-          <p style="font-weight: 600; margin: 0;">Written by Ryan Varley</p>
-        <a href="https://www.linkedin.com/in/ryanvarley/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-          <p style="color: var(--ifm-color-primary); margin: 5px 0;">Follow me on LinkedIn</p>
+          <p>Written by Ryan Varley</p>
+        <a href="https://www.linkedin.com/in/ryanvarley/" target="_blank" rel="noopener noreferrer">
+          <p>Follow me on LinkedIn</p>
         </a>
       </div>`,
       className: 'linkedin-profile-sidebar',
