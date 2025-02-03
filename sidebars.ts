@@ -21,6 +21,7 @@ const sidebars: SidebarsConfig = {
             alt="Ryan Varley Profile Picture"
           />
           <p>Written by Ryan Varley</p>
+          <p>Leader in Data, AI & Engineering</p>
         <a href="https://www.linkedin.com/in/ryanvarley/" target="_blank" rel="noopener noreferrer">
           <p>Follow me on LinkedIn</p>
         </a>
