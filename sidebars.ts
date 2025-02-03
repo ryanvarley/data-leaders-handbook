@@ -11,7 +11,19 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'html',
-      value: '<div class="linkedin-profile"><img src="/img/ryanvarley-profile.jpeg" alt="Ryan Varley Profile Picture" width="100" height="100" style="border-radius: 50%; object-fit: cover;" /><p>Follow me on LinkedIn</p></div>',
+      value: `<div class="linkedin-profile" style="text-align: center;">
+          <img 
+            src="/img/ryanvarley-profile.jpeg" 
+            alt="Ryan Varley Profile Picture" 
+            width="100" 
+            height="100" 
+            style="border-radius: 50%; object-fit: cover; border: 3px solid var(--ifm-color-primary); margin-bottom: 10px;" 
+          />
+          <p style="font-weight: 600; margin: 0;">Written by Ryan Varley</p>
+        <a href="https://www.linkedin.com/in/ryanvarley/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+          <p style="color: var(--ifm-color-primary); margin: 5px 0;">Follow me on LinkedIn</p>
+        </a>
+      </div>`,
       className: 'linkedin-profile-sidebar',
     },
   ],
