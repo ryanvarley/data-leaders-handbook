@@ -1,0 +1,210 @@
+---
+toc_min_heading_level: 2
+toc_max_heading_level: 2
+title: Interview Questions
+description: Great questions to ask candidates in interviews.
+image: /img/1-1-coffee-shop-2.jpg
+---
+
+import FeatureImg from '/img/interview-questions-1.jpg';
+import Subscribe from '@site/src/components/Subscribe';
+
+# Interview Questions
+
+<img src={FeatureImg} width="400"/>
+
+Here is my list of interview questions to ask candidates during your hiring process. This isn't my full process, nor the only thing I ask. More on that another time.
+
+I have added commentary to help you understand my thoughts on them, what they are trying to achieve, and how well they work. While the wording of questions is often deliberate, I don't always strictly adhere to it.
+
+I have given my indication of how much I like a question with stars (★) from 0–3. I don't list bad questions here (unless they are untested and I'm not sure yet), so even 0 stars is good.
+
+Very few of these questions are intended to be asked in isolation. They start a conversation and should be followed up. A follow-up is generally a gentle "why?" e.g. "That's interesting, did you try x?" "How did you solve for z?" "I have found that with stand-ups too, but as a remote team, how did you stay connected?"
+
+You will notice a lack of specific technical questions. I don't really ask them; exam questions are for those without experience where there aren't better alternatives. I test experience, values, and culture. I care less about whether they know X and more about whether they could learn it quickly and effectively.
+
+If you found this useful, consider subscribing to Data Leadership for updates about content here and more content about leading data teams.
+
+<Subscribe withLogo={false} />
+
+## Introduction/Phone Screen Questions
+
+### Based on your own research and previous conversations, can you tell me what you think [Company] does? ★
+
+Have they researched the company at all? Have they even spent five minutes on the website? I want people who care about the role. They don't have to be the company's main evangelist, but they should have spent some time looking into the job they will spend the majority of their waking hours at.
+
+People who have clearly not even been on the website very rarely do well in the rest of the process.
+
+### What was interesting about [Company] and the role? ★
+
+A better variation on "Why do you want this job?". Generally, I want enthusiasm for the role; it should match what they are looking for and how they want to progress. The values and ways of working we demonstrated in the job ad should be attractive. Enthusiasm for the company mission is always good, but it's role and company-dependent how much that matters.
+
+You want someone who will be happy and engaged in the role, who will grow and excel in it.
+
+### Why are you looking to leave your current role?
+
+Standard question. You are looking for red flags and that their goals align with what you can offer. For example, if they were applying for a manager role but looking for an opportunity to be a C-level within 1-2 years (and this is very unlikely to be available at your company), then you should know that, and you should let them know (this has happened!).
+
+### Can you give me a five-minute summary of your work experience to date?
+
+Whilst their CV should have most of this, having them explain it leads to a much more natural conversation. Five minutes is a good amount of time. You should cut them off if they go too much over.
+
+Write down things to follow up later (e.g. technologies, projects and skills you want to learn more about).
+
+
+## Testing Competence
+
+Questions in this section are multi-part, as follow-ups are essential. Competence is about deep understanding. Bad questions will allow candidates to sail through with surface knowledge, giving you a false sense of security.
+
+This is not the only way I test competence; there will be an article on this soon (subscribe for updates).
+
+### What project have you worked on that you're most proud of, and why? ★★
+
+The goal is to unearth the nuanced decisions that only a hands-on contributor would know and understand how they make decisions. If someone struggles to explain a project they claim to be proud of, that’s a significant red flag.
+
+**It is very important to dig into the details and not ask this in isolation.** It's probably 15–20 minutes and a key part of my hiring manager interview (after the phone screen). I say "proud of" as they should have had deep involvement and still remember the details. It makes the project their choice and gives them little room to not be able to talk about it.
+
+Inquire about their data and decision-making process: *Why MongoDB? Why a random forest? What features did you choose, and why? Did you consider alternatives? Which features were most impactful, and how do you know? What would you do next to enhance the results?*
+
+There’s no set script here; it’s about exploring something they should know intimately. If candidates can’t answer these questions, it suggests they either mindlessly followed a process or are taking credit for work they weren’t very involved in.
+
+Not every decision requires exhaustive analysis (most don't), but thoughtful responses like, “I chose a random forest because it performs well on our data with minimal tuning” or “Doing that would add complexity but only affect 4% of users, which wasn’t worth the effort” indicate genuine engagement and thought.
+
+#### Why did you use X method?
+
+Commonly asked to data scientists talking about a machine learning project, e.g., Why a random forest?
+
+#### What are the advantages of X method over Y method?
+
+E.g., Why did you use a document store over a relational database?
+
+#### How does X method work?
+
+I don't expect mathematical derivations, but they should have an idea of how a fundamental technology to the project works. I sometimes describe this like a racing car driver and the engineers who build the car. I expect them to be the driver, with a deep understanding of how it behaves and how to use it, but not be able to build the engine themselves.
+
+#### What lessons did you learn from this project? Is there anything you would do differently in the future?
+
+I prefer this phrasing as it's more forward-looking. I dislike phrasing like "What would you do differently if you started again?" as it focuses more on decisions you would make differently with more complete knowledge rather than lessons you will take with you to future projects.
+
+### Asking about technology they have used (either mentioned in the interview or CV) ★★ {#asking-about-technology}
+
+Treat candidates as experts in the technologies and frameworks they list on their CV.
+
+If you met them at a conference, what questions would you ask them to learn from their experience?
+
+For example:
+
+*   You've used MongoDB a lot? When have you found it to be a better choice over SQL? Some of our older infrastructure is on Mongo, and we've had to recreate a lot of relational logic in the application code.
+*   Have you faced query optimisation issues with GraphQL? We love the flexibility but have heard users can end up running suboptimal queries that can be really tough to fix.
+*   You say you have deployed LLM-based features? How did you handle ensuring safety and avoiding hallucinations? How did you evaluate how it was performing?
+
+These questions work best when they're genuine — when the candidate should be better versed on the subject than you, but you know enough to ask good questions. You can quickly gauge someone's real-world experience by how well they can teach you the nuances of using it. They might not always know the solution to your specific problem, but if they have real experience, it should lead to an insightful conversation.
+
+It’s a red flag when a candidate has only surface knowledge about the things *they* have highlighted in their CV.
+
+As an aside for candidates: Don't put things on your CV that you don't want to talk about in an interview!
+
+### Case study
+
+The case study is an essential part of my process for testing competence in the role. It is, however, much more than a question and will be covered on its own page at a later date.
+
+## Cultural Fit
+
+### What ceremonies and processes does your team do, which do you value or not? ★
+
+The *reasons* are what you're looking for. E.g., I really value retrospectives, and I've had good candidates say they didn't. When I asked why, they explained how their current company runs them and the issues — they have terrible retrospectives! They showed cultural fit in their reasoning by showing what they valued. If I didn't follow up, I would have falsely assumed they didn't value feedback and continuous improvement.
+
+### How would you interview [the role you are applying for]? What would be important for you? ★★
+
+Good for managers and senior ICs and above. Okay for mid-levels, not very useful for juniors. It's a great way of drawing out their values, but also how they think about things.
+
+### Speed of work vs. quality: On a spectrum, where do you like to be? ★
+
+Either extreme is generally bad, but I'm looking for whether, rather than a rigid view, their view is flexible and dependent on circumstances. You surface a lot of their values here.
+
+### What size team do you like working in?
+
+Generally, I have worked in start-ups with small teams. So, if someone likes big teams with lots of support, then they probably aren't a match. It's mostly trying to figure them out and draw out their experience.
+
+### What is your preferred working style? How do you prefer to be managed?
+
+I am generally looking for self-starters who can work independently, so it is testing a specific value. However, this also offers an opportunity for candidates to volunteer some red flags or show value alignment.
+
+### What are you looking for in a role? ★
+
+Standard question, but great to ask. Does what they are looking for align with what you can offer? Tell them the ways it does and doesn't. Everyone appreciates honesty here, and there's no advantage to tricking them into the role if it's a bad fit.
+
+## Skills Fit
+
+If I'm looking for specific skills or technologies, I will tend to ask about them like in [asking about technology](#asking-about-technology). I will generally have already highlighted a few from their CV I want to probe. The questions here are more general.
+
+### Types of data scientists ★
+
+"If you imagine a pyramid with the top corner being data analytics, the bottom left data engineering, and the bottom right machine learning, where would you place yourself? For example, if you are just interested in machine learning, you'd be right in the corner, or you could be halfway between two."
+
+This sounds like a complex way of asking a question, but it makes them think more and leads to good discussion and a good follow-up. It's good to understand where someone thinks they are. For different roles, you can change the corners. Most useful for mid-levels and seniors.
+
+The most important part, though, is the follow-up next.
+
+*Side note: I think this question made more sense a few years ago, the field is much broader now and so the options here maybe a little simple.*
+
+#### And where would you like to be? ★★
+
+Ask people about where they are going, not just where they are. You are hiring someone who is growing. You want to see that their growth plans work with yours.
+
+Are they happy where they are? Where do they want to move?
+
+I've learned here that the software engineer I was hiring *really* wanted to be a data scientist. This is great, but not when I really needed a software engineer long term and was already over-resourced on data science.
+
+I've also learned that a data scientist wanted to get strong at analytics or machine learning and can contrast that to where I know current team members are learning.
+
+## Leadership Questions
+
+For hiring team leads/heads of. A lot of these are testing culture and values. But also experience; they should have views. The "right" answer depends on your company, but it's more about the *why* than the answer. E.g., I do 1-1s and retrospectives should be followed up with *why*. There are good and bad reasons to do this.
+
+### How do you currently run your team? What processes do you value? ★
+
+Tests alignment with their process, but I'm mostly interested in their reasoning. Do you have process for the sake of process, or does it have a reason? Why do you not do stand-ups anymore? Did it fix a problem? Did it cause a problem? What do you do instead? Are they flexible? Do they adapt processes to circumstances, or is it their way or the highway?
+
+### What processes do you do with team members? E.g., 1-1s, reviews
+
+As above, but a focused variation or follow-up.
+
+### How do you think a data science team should be structured? E.g., with other areas like engineering and product? ★
+
+There are a million ways to structure teams, and they have pros and cons and are massively dependent on many factors like overall team size, type of work, etc. Have they even thought about this? They should have views because they should be constantly solving cross-team problems.
+
+### How should product and DS work together?
+
+Similar to above, but I think data teams, particularly in start-ups, are very used to doing a lot of their own product work. Again, more about their reasoning than one way or the other.
+
+### How much ownership should DS have over its products in production? ★
+
+I have a strong culture of "you build it, you run it". There isn't a team to hand things over to, so you need to be able to operate independently. So, for *me*, this kind of has a right answer, but it's not pass/fail. If it differs, ask why, tell them we do it this way, and ask what they think. Maybe they love the idea? Maybe they have concerns you can talk about.
+
+## Closing Questions
+
+These are mostly about getting the candidate to say yes. They ensure you have covered everything, demonstrate your culture and values, and show you care about the candidate.
+
+These can be at the end of an interview, but most are tailored to be at the end of the process when you're pretty certain you will make an offer. I ask these in the final hiring manager interview. This interview is normally short (30 minutes) and focused on selling the job and answering further questions.
+
+### What is one of your strengths that you haven’t had the opportunity to demonstrate to us in this process yet? ★★
+
+It has a few goals:
+
+1.  Lets you know something about the candidate that may be highly relevant to the role that you missed.
+2.  Highlights this gap in your interview process so you can fix it.
+3.  Shows you care about the candidate and allows them to show themselves in the best light. A positive indication of your culture.
+
+### If we made you an offer, for what reasons would you turn it down? ★★★
+
+This is one of my favourite questions to ask a candidate in an interview, as it's so simple but can be the difference in losing or securing a candidate. I ask it near the end of the process when we are likely to make an offer. After taking some time to think, most candidates normally resort to being very direct and just telling you what's on their mind.
+
+*   “The title is the same that I currently have, and I'm worried about stagnation; can we change it to X?”
+*   “I'm concerned about the Glassdoor reviews that mention Y.”
+*   “As I mentioned, I'm moving to Spain, so I'm prioritising a company that can help make that easier.”
+*   “I'm worried about the finances of a start-up and thinking about whether I value stability more right now.”
+*   “Nothing, I loved the process and meeting everyone and would love to join.”
+*   “I’m really looking to grow into the Z role and looking for somewhere where that's a potential option.”
+
+You have the opportunity at that moment to address the issues that may cost you the candidate. Normally, the solutions to what's asked are small — an explanation to clear up a misconception, some more detail, or a small change in the offer. But it can make all the difference, and you may never have known otherwise.

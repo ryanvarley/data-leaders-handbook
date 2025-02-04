@@ -28,3 +28,50 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Sidebar spacing */
+.subscribe-sidebar,
+.linkedin-profile-sidebar {
+  margin-bottom: 20px !important;
+}
+
+/* Sidebar Subscribe Container */
+.subscribe-container iframe {
+  width: 280px;
+  height: 320px;
+  border: 1px solid #EEE;
+  background: white;
+  border: 0;
+}
+
+/* Sidebar LinkedIn Profile */
+.linkedin-profile {
+  text-align: center;
+}
+
+.linkedin-profile img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--ifm-color-primary);
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.linkedin-profile p {
+  margin: 0;
+}
+
+.linkedin-profile p:first-of-type {
+  font-weight: 600;
+}
+
+.linkedin-profile a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkedin-profile a p {
+  color: var(--ifm-color-primary);
+  margin: 5px 0;
+}
