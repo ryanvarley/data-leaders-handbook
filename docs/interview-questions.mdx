@@ -58,23 +58,51 @@ This is not the only way I test competence, their will be an article on this soo
 
 ### What project have you worked on that you're most proud of and why? ★★
 
-The question tests competence and requires many follow ups. Its probably 15-20m and a key part of my hiring manager interview (after phone screen). I say "proud of" as they should have had deep involvement, and still remember the details. It makes the project their choice and gives them little room to not be able to talk about it. The importance of the question however is really in the follow ups.
+The goal is to unearth the nuanced decisions that only a hands-on contributor would know and understand how they make decisions. If someone struggles to explain a project they claim to be proud of, that’s a significant red flag.
 
-{/* see advice on rebel / previous posts */}
+**It is very important to dig into the details and not ask this in isolation.** Its probably 15-20m and a key part of my hiring manager interview (after phone screen). I say "proud of" as they should have had deep involvement, and still remember the details. It makes the project their choice and gives them little room to not be able to talk about it.
+
+Inquire about their data and decision-making process: Why MongoDB? Why a random forest? What features did you choose, and why? Did you consider alternatives? Which features were most impactful, and how do you know? What would you do next to enhance the results?
+
+There’s no set script here; it’s about exploring something they should know intimately. If candidates can’t answer these questions, it suggests they either mindlessly followed a process or are taking credit for work they weren’t very involved in.
+
+Not every decision requires exhaustive analysis (most don't), but thoughtful responses like, “I chose a random forest because it performs well on our data with minimal tuning” or “Doing that would add complexity but only affect 4% of users, which wasn’t worth the effort” indicate genuine engagement and thought.
 
 #### Why did you use X method?
-Common asked to data scientists taking about a machine learning project. COPY INFO 
+Common asked to data scientists taking about a machine learning project. e.g. Why random forrest?
+
+#### What are the advantages of X method over Y method?
+
+e.g. Why did you use a document store over a relational db?
 
 #### How does X method work?
-I dont expect mathmatical derivations but they should have an idea of how it works. I sometimes describe this like a racing car driver and the engineers who build the car. Im expect them to be the driver, with a deep understanding of how it behaves and hoe to use it, but not the ins and outs of how it works.
+
+I dont expect mathmatical derivations but they should have an idea of how a fundamental technology to the project. I sometimes describe this like a racing car driver and the engineers who build the car. I expect them to be the driver, with a deep understanding of how it behaves and how to use it, but not be ale to build the engine themselves.
 
 #### What lessons did you learn from this project, is there anything you would do differently in future?
 
 I prefer this phrasing as its more forward looking. I dislike phrasing like "what would you do different if you started again" as it focuses more on decisions you would make differently with more complete knowledge rather than lessons you will take with you to future projects. 
 
-#### Speed of work vs quality, in a spectrum, where do you like to be?
+#### Speed of work vs quality, in a spectrum, where do you like to be? ★
 
-Either extreme is generally bad but im looking for rather than a rigid view there view is fleixble and dependent on circumstances. 
+Either extreme is generally bad but im looking for rather than a rigid view there view is fleixble and dependent on circumstances. You surface a lot of their values here.
+
+### Asking about technology they have used (either mentioned in the interview or CV)
+
+Treat candidates as experts in the technologies and frameworks they list on their CV.
+
+If you met them at a conference, what questions would you ask them to learn from their experience?
+
+For example:
+* You've used MongoDB a lot? When have you found it to be a better choice over SQL? Some of our older infra is on Mongo, and we've had to recreate a lot of relational logic in the application code.
+* Have you faced query optimisation issues with GraphQL? We love the flexibility, but have heard users can end up running suboptimal queries that can be really tough to fix.
+* You say you have deployed LLM based features? How did you handle ensuring safety and avoiding hallucinations? How did you evaluate how it was performing?
+
+These questions work best when they're genuine — when the candidate should be better versed on the subject than you but you know enough to ask good questions. You can quickly gauge someone's real-world experience by how well they can teach you the nuances of using it. They might not always know the solution to your specific problem, but if they have real experience, it should lead to an insightful conversation.
+
+It’s a red flag when a candidate has only surface knowledge about the things THEY have highlighted in their CV.
+
+As an aside for candidates - don't put things on your CV that you don't want to talk about in an interview!
 
 ### Case study?
 
