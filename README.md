@@ -31,3 +31,11 @@ This will serve the site locally so you can see your changes.
 This is done automatically through Cloudflare Pages.
 
 PRs will be built and served on private urls.
+
+## Misc
+
+Generate heading ids (for links)
+
+```
+npm run write-heading-ids . docs/interview-questions.mdx
+```
