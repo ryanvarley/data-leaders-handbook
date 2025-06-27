@@ -58,13 +58,13 @@ const config: Config = {
     navbar: {
       title: 'Data Leaders Handbook',
       logo: {
-        alt: 'Data Leaders Handbook Logo',
-        src: 'img/logo.png',
+        alt: 'Brilliant People, Exceptional Teams Logo',
+        src: 'img/logo2.png',
       },
       items: [
         {
-          href: 'https://blog.dataleadership.ai',
-          label: 'Blog',
+          href: 'https://newsletter.brilliantpeople.io',
+          label: 'Newsletter',
           position: 'left',
         },
         {
@@ -94,8 +94,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Data Leadership Blog',
-              to: 'https://blog.dataleadership.ai',
+              label: 'Brilliant People, Exceptional Teams Newsletter',
+              to: 'https://newsletter.brilliantpeople.io',
             },
             {
               label: 'GitHub',

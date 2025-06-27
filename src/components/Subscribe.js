@@ -6,7 +6,7 @@ export default function Subscribe({ withLogo }) {
     return (
         <div>
             <iframe
-                src="https://blog.dataleadership.ai/embed"
+                src="https://newsletter.brilliantpeople.io/embed"
                 width="480"
                 height={height}
                 style={{ border: '1px solid #EEE', background: 'white' }}

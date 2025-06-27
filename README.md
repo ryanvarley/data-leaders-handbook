@@ -6,7 +6,7 @@ Welcome to the Data Leaders Handbook. You have found the source code. If you wan
 
 This is a place I can share resources that I intend to grow and evolve over time. While the intended audience is leaders in data fields like Data Science, Data Engineering and Data Analytics the content should be very relevant to engineering leaders and managers and similar roles.
 
-For now this just contains 1:1 questions but I have plenty more to add in future including questions for interviews, skip levels and feedback. The best way to get updates is to subscribe to the main blog [Data Leadership](https://blog.dataleadership.ai/).
+For now this just contains 1:1 questions but I have plenty more to add in future including questions for interviews, skip levels and feedback. The best way to get updates is to subscribe to the main newsletter [Brilliant People, Exceptional Teams](https://newsletter.brilliantpeople.io).
 
 I welcome suggestions and pull requests (though for now I reserve the right to be the sole judge of what gets added).
 
