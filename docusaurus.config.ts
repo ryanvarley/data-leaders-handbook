@@ -63,7 +63,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://newsletter.brilliantpeople.io',
+          href: 'https://newsletter.ryanvarley.com',
           label: 'Newsletter',
           position: 'left',
         },
@@ -95,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Brilliant People, Exceptional Teams Newsletter',
-              to: 'https://newsletter.brilliantpeople.io',
+              to: 'https://newsletter.ryanvarley.com',
             },
             {
               label: 'GitHub',
